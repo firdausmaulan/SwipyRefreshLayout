@@ -1,4 +1,4 @@
-package com.orangegangsters.github.swipyrefreshlayout.library;
+package com.omadahealth.github.swipyrefreshlayout.library;
 
 /**
  * Created by oliviergoutay on 1/23/15.

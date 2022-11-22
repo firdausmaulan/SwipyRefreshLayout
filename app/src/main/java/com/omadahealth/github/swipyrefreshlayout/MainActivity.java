@@ -1,16 +1,16 @@
-package com.orangegangsters.github.swipyrefreshlayout;
+package com.omadahealth.github.swipyrefreshlayout;
 
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 
-import com.orangegangsters.github.swiperefreshlayout.R;
-import com.orangegangsters.github.swiperefreshlayout.databinding.ActivityMainBinding;
-import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout;
-import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
+import com.omadahealth.github.swiperefreshlayout.R;
+import com.omadahealth.github.swiperefreshlayout.databinding.ActivityMainBinding;
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout;
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
 
 public class MainActivity extends AppCompatActivity implements SwipyRefreshLayout.OnRefreshListener, View.OnClickListener {
 
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements SwipyRefreshLayou
     }
 
     /**
-     * Called when the {@link com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout}
+     * Called when the {@link com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout}
      * is in refresh mode. Just for example purpose.
      */
     @Override

@@ -6,7 +6,7 @@ A SwipeRefreshLayout extension that allows to swipe in both direction (API 9+)
 To include in your project, add this to your build.gradle file:
 ```
    //SwipyRefreshLayout
-   compile 'com.github.orangegangsters:swipy:1.2.3@aar'
+   compile 'com.github.omadahealth:swipy:1.2.3@aar'
 ```
 
 Starting from 1.2.3 we are moving to a new package name:
@@ -24,7 +24,7 @@ Starting from 1.2.3 we are moving to a new package name:
 If you want an example on how to use it, you can find an example app in this repo.
 
 ```
-<com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+<com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout
         android:id="@+id/swipyrefreshlayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,7 +35,7 @@ If you want an example on how to use it, you can find an example app in this rep
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-</com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+</com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout>
 ```
 
 ```
@@ -93,7 +93,7 @@ mSwipyRefreshLayout.setDirection(SwipyRefreshLayoutDirection.BOTH);
 ```
 The MIT License (MIT)
 
-Copyright (c) 2015 OrangeGangsters
+Copyright (c) 2015 omadahealth
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
